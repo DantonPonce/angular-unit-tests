@@ -11,4 +11,10 @@ import { LikeWidgetComponent } from './shared/components/like-widget/like-widget
 export class AppComponent {
   title = 'angular-unit-tests';
 
+  likes: number = 0;
+
+  like(): void{
+    this.likes++;
+  }
+
 }
