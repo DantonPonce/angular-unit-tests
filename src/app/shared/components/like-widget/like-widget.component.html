@@ -1,10 +1,10 @@
 <div class="container" (click)="like()" (keyup.enter)="like()">
-  <i
-    class="fas fa-thumbs-up"
+  <fa-icon
+    [icon]="fonts.faThumbsUp"
     tabindex="0"
     role="button"
     [attr.aria-describedy]="id"
-  ></i>
+  ></fa-icon>
   <span
     [attr.id]="id"
     [attr.aria-label]="likes + ': people liked'"
