@@ -17,8 +17,8 @@ export class LikeWidgetComponent implements OnInit {
   @Input() id: string = '';
 
   fonts = {
-    faThumbsUp
-  }
+    faThumbsUp,
+  };
 
   constructor(private uniqueIdService: UniqueIdService) {}
 
